@@ -1,4 +1,6 @@
-# Commands
+# NPM
+
+## Commands
 
 - `npm init [-y]`
   : initialize npm to create a new package [faster]
@@ -36,10 +38,13 @@
 - `npx [pkgName]`
   : instantly run package without installing
 
-# Files
+- `npm run [customScript]`
+  : run custom script
+
+## Files
 
 - _package.json_
-  : all the info about your package (name, version, description, dependencies etc...)
+  : all the info about your package (name, version, description, dependencies, scripts, etc...)
 
 - _package.lock.json_
   : automatically generated description of the dependency tree
